@@ -15,3 +15,10 @@ document.getElementById('book-from').addEventListener('submit',
       e.preventDefault();
   }
 );
+
+function UI(){
+  this.title=title;
+    this.author=author;
+    this.isbn=isbn;
+
+}
